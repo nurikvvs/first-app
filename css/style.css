@@ -1,0 +1,477 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #242b33;
+}
+.container {
+  max-width: 1024px;
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* header */
+.header {
+  background: #242b33;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+}
+.header .header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header__content .header__links {
+  gap: 40px;
+  display: flex;
+}
+.header .header__content .header__links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+.bars {
+  display: none;
+}
+.bars div {
+  width: 30px;
+  height: 3px;
+  margin: 4px 0;
+  background-color: white;
+}
+/*  */
+
+/* banner */
+.banner {
+  padding-top: 80px;
+  background: url(../asssets/banner.png) center/cover;
+  background-position: center;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.banner__content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.banner__title {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner__title h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0em;
+  color: #d4c17f;
+  text-align: center;
+  margin: 120px 0;
+  max-width: 550px;
+}
+.banner__links {
+  padding-top: 150px;
+  display: flex;
+  gap: 100px;
+}
+.banner__link {
+  display: flex;
+  gap: 20px;
+}
+.banner .banner__content .banner__links .banner__link p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+/*  */
+
+/* ABOUT */
+.about__blocks {
+  display: flex;
+  padding-top: 120px;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  gap: 20px;
+}
+.about__blocks .about__block p {
+  padding-top: 50px;
+  color: #fff;
+  text-align: center;
+}
+/*  */
+
+/* APARTMENTS */
+.apartments {
+  margin-top: 120px;
+}
+.apart_title h1 {
+  color: #d4c17f;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+}
+.apart_contents {
+  margin-top: 100px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.apart_content {
+  background: url('/asssets/Rectangle(1).png') center/cover;
+  height: 30vh;
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+.apart_content.two {
+  background: url('/asssets/Rectangle(2).png') center/cover;
+}
+.apart_contents .apart_content p {
+  color: white;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+}
+/*  */
+
+/* REGISTER */
+.register {
+  margin-top: 50px;
+  background: url(../asssets/Rectanglebannerbbb.png) center/cover;
+  background-position: center;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.reg_contents {
+  display: flex;
+  gap: 40px;
+}
+.reg_title {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  max-width: 500px;
+}
+.reg_title h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #d4c17f;
+}
+.reg_title p {
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.reg_contact input {
+  width: 100%;
+  max-width: 255px;
+  height: 50px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #bebebe;
+  border: 1px solid #BEBEBE;
+}
+.reg_contact ::placeholder {
+  color: #bebebe;
+  width: 100%;
+}
+.reg_info p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #bebebe;
+  max-width: 255px;
+  width: 100%;
+}
+.reg_register {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.reg_contact {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.reg_info {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  width: 100%;
+  align-items: center;
+}
+.reg_info button {
+  width: 100%;
+  max-width: 255px;
+  height: 50px;
+  background-color: #d4c17f;
+  color: white;
+}
+/*  */
+
+/* VIDEO */
+.video_content {
+  display: flex;
+  justify-content: center;
+}
+/*  */
+
+/* MAPS */
+.map {
+  margin-top: 180px;
+}
+.maps img {
+  padding-top: 100px;
+  width: 100%;
+  height: 50vh;
+}
+.maps h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #d4c17f;
+}
+/*  */
+
+/* QUESTION */
+.question {
+  margin: 180px 0;
+}
+.quest_content {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.questions h1 {
+  color: #d4c17f;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+}
+.quest_content p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #bebebe;
+  white-space: nowrap;
+}
+.quest_content input {
+  width: 100%;
+  max-width: 250px;
+  height: 50px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #bebebe;
+  border: 1px solid #BEBEBE;
+}
+.quest_content button {
+  width: 100%;
+  max-width: 250px;
+  height: 50px;
+  background-color: #d4c17f;
+  color: white;
+}
+/*  */
+
+/* FOOTER */
+.footer {
+  background: #2d343c;
+}
+.footer_content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  gap: 50px;
+}
+.footer_links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer_info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer_img {
+  display: flex;
+  gap: 20px;
+}
+
+.footer_links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+}
+.footer_info a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+}
+.footer_bars div {
+  width: 30px;
+  height: 3px;
+  margin: 4px 0;
+  background-color: white;
+}
+/*  */
+
+/* container size */
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 980px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 740px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 530px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .container {
+    max-width: 440px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .container {
+    max-width: 290px;
+  }
+}
+/*  */
+
+/* MEDIA */
+
+@media screen and (max-width: 1024px) {
+  .reg_contents {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .apart_title h1,
+  .questions h1,
+  .maps h1,
+  .reg_title {
+    text-align: center;
+  }
+  .banner__title h1 {
+    margin: 80px 0;
+  }
+  .banner__links {
+    padding-top: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bars {
+    display: block;
+  }
+  .banner__links {
+    padding-top: 50px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .header__links a {
+    display: none;
+  }
+  .banner__title h1 {
+    font-size: 40px;
+    margin: 40px 0;
+  }
+  .footer_bars {
+    display: block;
+  }
+  .quest_content {
+    flex-direction: column;
+  }
+  .quest_content button,
+  .quest_content input {
+    max-width: 400px;
+  }
+  .footer_content {
+    flex-direction: column;
+  }
+  .video_content img{
+    width: 95%;
+  }
+}
+@media screen and (max-width: 560px) {
+  .about__blocks {
+    flex-wrap: wrap;
+  }
+  .about__block {
+    width: 45%;
+  }
+  .about__blocks .about__block p {
+    padding: 20px 0 50px;
+  }
+  .apart_title {
+    text-align: center;
+  }
+  .apart_contents {
+    flex-direction: column;
+    align-items: center;
+  }
+  .maps h1{
+    font-size: 30px;
+  }
+  .banner__title h1{
+    font-size: 30px;
+    margin: 40px 0;
+    line-height: 30px;
+  }
+  .apart_contents .apart_content p{
+    font-size: 20px;
+  }
+}
